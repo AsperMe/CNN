@@ -59,20 +59,20 @@ Visualizations:
    cd cnn-image-classifier
    
 2.Create virtual environment
-
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-
-Install dependencies
+```
+Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 Train the model
-
+```
 ```bash
 python3 train.py
 Evaluate the model
-
+```
 ```bash
 python3 evaluate.py
+```
