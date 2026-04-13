@@ -60,18 +60,19 @@ Visualizations:
    
 2.Create virtual environment
 
-'''bash
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
+
 Install dependencies
 
-'''bash
+```bash
 pip install -r requirements.txt
 Train the model
 
-'''bash
+```bash
 python3 train.py
 Evaluate the model
 
-'''bash
+```bash
 python3 evaluate.py
